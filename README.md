@@ -8,4 +8,4 @@ In "mainAlg.py" there are implementations of several Evolutionary Algorithms(EAs
 In "experiments.py" there is te code to create the boxplots for experimentation:
 --experimentation is done by running an algorithm 100 times and taking the mean, this process is done 10 times and boxplots are created.
 
-DOCUMENTATION WILL BE UPDATED!
+Documentation will be revised

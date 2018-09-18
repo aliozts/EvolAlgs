@@ -2,6 +2,7 @@
 This repository includes two programs "mainAlg.py" and "experiments.py" 
 
 In "mainAlg.py" there are implementations of several Evolutionary Algorithms(EAs):
+
 (1 + Lambda)-EA
 
 (Mu + Lambda)-EA

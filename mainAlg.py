@@ -542,7 +542,9 @@ def muCommaLambdaEA(str_size, n_type, p_noise):
 
 
 def crossover(ind1, ind2):
-    # Change a bit of a random index select uniformly from one of the individuals
+    # Two individuals are created from the mix of the inputs.
+    # it goes through the string bit by bit and new individuals are created with the selected bits. For an example:
+    # Crossover of 00 11 -> (1 0)  (0 1) first individual (1  0) is created by selection of "1" in first bit and selection of "0" in the second bit. Second indivudual is created with what's left.
     x = ind1
     y = ind2
     for i in range(len(ind1)):
